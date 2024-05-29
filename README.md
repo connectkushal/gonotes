@@ -11,7 +11,8 @@
 | %04.1f| set total width to 4 with 1 precision with 0 as padding| eg `02.1` for input of `2.123`|
 
 - other verbs
-  
+
+```  
 General:
 
 %v  the value in a default format.
@@ -69,7 +70,7 @@ Other flags:
 ' ' (space) leave a space for elided sign in numbers (% d);
     put spaces between bytes printing strings or slices in hex (% x, % X)
 0   pad with leading zeros rather than spaces
-
+```
 
 Formatting Verbs
 
