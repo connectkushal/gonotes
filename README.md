@@ -8,6 +8,7 @@
 |%2d  | set width of the number, space as padding||
 | %02d |`0` for padding ||
 | %0*d | take width as user input. for space padding remove `0`| eg sprintf("%0*d", 3, 2) //002 |
+| %.1f| print value with 1 precision | eg output `5.9` for input of `5.9238478`|
 | %04.1f| set total width to 4 with 1 precision with 0 as padding| eg `02.1` for input of `2.123`|
 
 - other verbs
